@@ -2656,6 +2656,11 @@ PrefabInstance:
       propertyPath: deathText
       value: 
       objectReference: {fileID: 5795659970475697345}
+    - target: {fileID: 8323195675320000103, guid: be3ebd72e09987d45b40106552f5007f,
+        type: 3}
+      propertyPath: timerText
+      value: 
+      objectReference: {fileID: 5795659970475697346}
     - target: {fileID: 8323195675320000102, guid: be3ebd72e09987d45b40106552f5007f,
         type: 3}
       propertyPath: m_Name
@@ -2914,11 +2919,27 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1221172176}
+    - target: {fileID: 738275276, guid: 1a252f0c53956344c94f3be2f0d0a148, type: 3}
+      propertyPath: m_Text
+      value: Level 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1a252f0c53956344c94f3be2f0d0a148, type: 3}
 --- !u!114 &5795659970475697345 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 637163829, guid: 1a252f0c53956344c94f3be2f0d0a148,
+    type: 3}
+  m_PrefabInstance: {fileID: 5795659970475697344}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &5795659970475697346 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5795659970501259537, guid: 1a252f0c53956344c94f3be2f0d0a148,
     type: 3}
   m_PrefabInstance: {fileID: 5795659970475697344}
   m_PrefabAsset: {fileID: 0}

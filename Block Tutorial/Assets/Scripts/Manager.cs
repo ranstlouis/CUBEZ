@@ -10,7 +10,9 @@ public class Manager : MonoBehaviour
     public GameObject completeLevel;
     public Text deathText;
     static int deaths;
-   
+    public Text timerText;
+    private static float timer;
+
     public void EndLevel()
     {
         completeLevel.SetActive(true);
@@ -32,7 +34,12 @@ public class Manager : MonoBehaviour
 
     void Update()
     {
-        deathText.text = deaths.ToString();
+        deathText.text = "Deaths: " + deaths.ToString();
+        Timer();
     }
-
+    void Timer()
+    {
+        timer += Time.deltaTime;
+        timerText.text = "Time: " + timer.ToString("0");
+    }
 }

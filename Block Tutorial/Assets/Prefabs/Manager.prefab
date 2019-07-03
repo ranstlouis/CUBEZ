@@ -47,3 +47,4 @@ MonoBehaviour:
   restartDelay: 2
   completeLevel: {fileID: 0}
   deathText: {fileID: 0}
+  timerText: {fileID: 0}
